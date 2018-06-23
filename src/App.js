@@ -6,9 +6,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        {/* <DataJson athi='value'/> */}
-        {/* <Apidata /> */}
-        {/* <AddItem /> */}
        <h1>{this.props.ctr}</h1>
        <button onClick={this.props.increment}>Increment</button>
       </div>
